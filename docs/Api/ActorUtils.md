@@ -6,7 +6,7 @@
 WrapActorMessageWithPromise(actor: Actor, topic: string, ...:any): Promise
 ```
 
-Calls the passed `Actor`'s `:SendMessage()` function with the given topic and forwards all args passed. Do note that it automatically also passes a bindable event as the first argument for the actor's `:SendMessage()`. Here is a basic example to show how to fully implement the Usage example from above:
+Calls the passed `Actor`'s `:SendMessage()` function with the given topic and forwards all args passed. Do note that it automatically also passes a bindable event as the first argument for the actor's `:SendMessage()`. Here is a basic example to show how to use this function:
 
 In your calling script
 ```luau
