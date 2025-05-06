@@ -1,5 +1,7 @@
-return {
-	Hello = function()
-		print("Hello from ActorUtils")
-	end,
-}
+local ActorUtils = {}
+
+function ActorUtils.HelloWorld()
+	print("Hello World")
+end
+
+return ActorUtils
