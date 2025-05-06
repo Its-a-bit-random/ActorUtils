@@ -8,7 +8,7 @@
 
 add the following to your `Wally.toml`:
 ```toml
-ActorUtils = "sebastian2852/actorutils@0.0.1"
+ActorUtils = "sebastian2852/actorutils@0.1.0"
 ```
 
 Then run `Wally install` in your terminal to install the package.
