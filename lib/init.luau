@@ -19,4 +19,23 @@ function ActorUtils.WrapActorMessageWithPromise(actor: Actor, topic: string, ...
 	end)
 end
 
+--[=[
+	Wrapper for `Actor:BindToMessage()` that automatically handles the return event. Should only be used if you are calling
+	with `WrapActorMessageWithPromise`.
+]=]
+function ActorUtils.BindToMessage(actor: Actor, topic: string, handler: (...any) -> ...any)
+	actor:BindToMessage(topic, function(returnEvent: BindableEvent, ...)
+		returnEvent:Fire(handler(...))
+	end)
+end
+
+--[=[
+	Same as `BindToMessage` except connects with `:BindToMessageParallel()`
+]=]
+function ActorUtils.BindToMessageParallel(actor: Actor, topic: string, handler: (...any) -> ...any)
+	actor:BindToMessageParallel(topic, function(returnEvent: BindableEvent, ...)
+		returnEvent:Fire(handler(...))
+	end)
+end
+
 return ActorUtils
