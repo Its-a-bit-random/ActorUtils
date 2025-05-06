@@ -3,5 +3,7 @@ name = "sebastian2852/actorutils"
 version = "0.0.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+include = ["lib", "default.project.json", "LICENSE"]
 
 [dependencies]
+Promise = "evaera/promise@4.0.0"
