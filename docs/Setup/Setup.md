@@ -2,7 +2,19 @@
 
 ## Installing
 
-TODO
+***Note:* You can use any installation method you like but you may need some extra setup!**
+
+### Wally (Preferred)
+
+add the following to your `Wally.toml`:
+```toml
+ActorUtils = "sebastian2852/actorutils@0.0.1"
+```
+
+Then run `Wally install` in your terminal to install the package.
+
+Finally sync the created `Packages` folder in your Rojo project somewhere like `ReplicatedStorage`!
+
 
 ## Using
 
