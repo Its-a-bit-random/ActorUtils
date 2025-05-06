@@ -1,0 +1,13 @@
+{
+	"name": "ActorUtils",
+	"tree": {
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"Packages": {
+				"$path": "Packages",
+				"ActorUtils": {"$path": "lib"}
+			}
+		}
+	}
+}
