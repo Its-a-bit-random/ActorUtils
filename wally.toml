@@ -1,9 +1,11 @@
 [package]
 name = "sebastian2852/actorutils"
-version = "0.0.1"
+version = "0.1.0"
 description = "Promise-based messaging and utilities for Roblox's parallel Luau actors"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+homepage = "https://its-a-bit-random.github.io/ActorUtils/"
+repository = "https://github.com/Its-a-bit-random/ActorUtils"
 
 license = "MIT"
 authors = ["Sebastian2852"]
