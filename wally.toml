@@ -3,6 +3,10 @@ name = "sebastian2852/actorutils"
 version = "0.0.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+
+license = "MIT"
+
+exclude = ["**"]
 include = ["lib", "default.project.json", "LICENSE"]
 
 [dependencies]
