@@ -2,7 +2,7 @@ name: site-deploy
 
 on:
     push:
-        branches: [main]
+        branches: [Main]
         paths:
             - "docs/**/*"
 
