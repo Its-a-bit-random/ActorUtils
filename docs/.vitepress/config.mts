@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Actor Utils",
   description: "Making actors simple",
-  base: "/actorutils/",
+  base: "/ActorUtils/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
